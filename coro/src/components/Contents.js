@@ -8,3 +8,4 @@ export const Contents = () => {
         </section>
     )
 }
+export default Contents
