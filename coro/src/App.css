@@ -6,7 +6,26 @@
 }
 
 .header {
+  padding: 1rem 2rem;
   background: #3b5998;
   /* 페이스북 컬러 */
   display: flex;
+  justify-content: space-between;
+  /* header 오른쪽에 붙임 */
+  align-items: center;
+  /* 박스 줄임 */
+}
+.header h1 {
+  color: #fff;
+}
+.header select {
+  height: 30px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  /* 선택 상자 사이즈 조절 */
+}
+
+section {
+  padding: 1rem;
 }
